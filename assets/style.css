@@ -1,0 +1,164 @@
+*{
+    margin:0;
+}
+body{
+    background-image: url(LOGO.png);
+    background-size: cover ;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+/* ======================Nawawi Web================ */
+nav{
+    background-color: aqua;
+    width: 100%;
+    position: fixed;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /* border: 2px red solid; */
+}
+nav li{
+    /* border: 2px red solid; */
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 8px;
+}
+nav a{
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: crimson;
+}
+.framelg{
+    float:left;
+    margin-right: 10px;
+    /* border: 2px red solid; */
+}
+.header{
+    /* border: 2px red solid; */
+    padding-bottom: 80px;
+    padding-top: 50px ;
+}
+.judul1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+.judul2{
+    color: white;
+    margin-left: 220px;
+    text-shadow: 3px 2px aqua ;
+    font-style: oblique;
+    font-size: 30px;
+}
+#profil {
+    text-align: center;
+    font-size: 50px;
+}
+.container{
+    display: flex;
+    border: 3px solid red;
+    padding-bottom: 60px ;
+    flex-direction: row;
+    
+}
+.kotak1{
+    background-color: black;
+    margin-top: 20px;
+    width: 80%;
+    margin-right: 30px;
+    /* border: 3px solid red; */
+}
+.kotak1 p{
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+}
+.kotak1 h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.kotak2{
+    background-color: black;
+    margin-top: 20px;
+}
+.kotak2 ul{
+    /* border: 3px solid red;    */
+}
+.kotak2 li{
+    color: white;
+    font-size: 30px;
+}
+.kotak2 h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.kotak2 p{
+    font-size: 30px;
+}
+.container2 h2{
+    padding-top: 40px;
+    /* border: 3px solid red; */
+    text-align: center;
+    font-size: 50px;
+}
+.kotak3{
+    background-color: black;
+}
+table{
+    color: rgb(255, 255, 255);
+    margin: 0px auto;
+    font-size: 30px;
+}
+input{
+    width: 50%;
+}
+.footer{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(0, 255, 234);
+    color: rgba(0, 0, 0, 0.863);
+    padding: 10px;
+    font-size: 17px;
+    bottom: 0%;
+    margin-top: 30px;
+}
+footer .kiri{
+    float: left;
+}
+footer .kanan{
+    float: right;
+    padding-right: 20px;
+}
+.kanan a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+}
+/* ================Nawawi Web produk================ */
+.produkkami{
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.kontenproduk{
+    background-color: white;
+    /* border: ridge 2px red; */
+}
+.img-box{
+    display: flex;
+    flex-direction: row;
+}
+.img-item{
+    /* border: 5px ridge white; */
+    margin: 10px auto;
+}
+.img-item p{
+    text-align: center;
+}
+
+
